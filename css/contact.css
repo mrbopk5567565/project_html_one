@@ -115,6 +115,18 @@ body {
     padding: 32px 48px;
 }
 
+@media (max-width: 992px){
+    .section-contact--information{
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px){
+    .section-contact--information{
+        width: 80%;
+    }
+}
+
 .information--title{
     font-size: 32px;
     margin: 0 0 16px;
@@ -132,6 +144,18 @@ body {
 .section-contact--form{
     width: 40%;
     padding: 0 48px;
+}
+
+@media (max-width: 992px){
+    .section-contact--form{
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px){
+    .section-contact--form{
+        width: 80%;
+    }
 }
 
 .form-item{
@@ -157,6 +181,18 @@ body {
     letter-spacing: 1px;
 }
 
+@media (max-width: 992px){
+    .form-input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .form-input{
+        width: 100%;
+    }
+}
+
 .form-button{
     background: black;
     padding: 12px 30px;
@@ -167,7 +203,7 @@ body {
     font-weight: bold;
     transition: all 0.5s;
     color: white;
-    width: 25%;
+    width: 120px;
     margin-top: 5px;
 }
 
