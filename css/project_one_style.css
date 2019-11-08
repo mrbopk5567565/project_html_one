@@ -414,3 +414,21 @@ h3 span{
     font-size: 16px;
 }
 /*FIN main-footer */
+
+/* START section timeline */
+.section-timeline--title{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+
+.section-timeline--description{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #777;
+    font-family: sans-serif;
+}
+/* FIN section timeline */

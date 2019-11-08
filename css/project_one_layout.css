@@ -589,3 +589,35 @@ h4.section-five-list-title{
     margin: 0 10px;
 }
 /*FIN main-footer */
+
+/* START section timeline */
+.section-timeline--heading{
+    text-align: center;
+    padding: 48px 12px;
+}
+
+.section-timeline--content{
+    padding-top: 48px;
+}
+
+.section-timeline--main{
+    position: relative;
+    font-family: sans-serif;
+    width: 90%;
+    margin: 0 12px;
+}
+
+.section-timeline--main::before{
+    content: "";
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: black;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+    
+/* FIN section timeline */
