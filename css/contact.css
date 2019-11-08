@@ -223,7 +223,7 @@ body {
 /* --------------- */
 /*START main-footer */
 .main-footer-content{
-    background: url(../images/banner.jpg);
+    background: url(../images/banner.jpg) center no-repeat;
     text-align: center;
     background-attachment: fixed;
 }
