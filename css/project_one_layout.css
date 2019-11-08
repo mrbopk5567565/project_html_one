@@ -98,6 +98,12 @@ img{
     overflow: hidden;
 }
 
+@media (max-width: 600px){
+    .section-article-container{
+        height: 300px;
+    }
+}
+
 @media (max-width: 500px){
     .section-article-container{
         width: 100%;
