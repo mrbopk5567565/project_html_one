@@ -110,12 +110,6 @@ img{
     }
 }
 
-@media (max-width: 400px){
-    .section-article-container{
-        width: 100%;
-    }
-}
-
 .section-article-container:hover .section-article-image{
     top: 45%;
     left: 45%;
@@ -248,11 +242,6 @@ img{
     }
 }
 
-@media (max-width: 400px){
-    .section-article-content{
-        width: 100%;
-    }
-}
 /* FIN section article */
 
 /* START section five */
@@ -337,14 +326,6 @@ img{
 }
 
 @media (max-width: 600px){
-    .section-five-item{
-        width: 45%;
-        padding: 34px 30px;
-        min-height: 200px;
-    }
-}
-
-@media (max-width: 500px){
     .section-five-item{
         width: calc(100% - 40px);
         padding: 34px 30px;
@@ -442,14 +423,6 @@ h4.section-five-list-title{
 
 @media (max-width: 768px){
     .section-introduce-personal{
-        width: 40%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 768px){
-    .section-introduce-personal{
         width: 80%;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -457,17 +430,16 @@ h4.section-five-list-title{
 }
 
 .section-introduce-personal:hover .section-introduce-personal--image{
-    transform: translate(-50%, -150%);
+    transform: translate(-50%, -160%);
     transition: 0.5s;
-    /* box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.2); */
 }
 
-@media (max-width: 600px){
+/* @media (max-width: 600px){
     .section-introduce-personal:hover .section-introduce-personal--image{
         transform: translate(-50%, -160%);
         transition: 0.5s;
     }
-}
+} */
 
 .section-introduce-personal--image{
     position: absolute;
