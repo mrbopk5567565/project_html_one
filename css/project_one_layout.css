@@ -490,6 +490,11 @@ h4.section-five-list-title{
 .section-picture{
     padding: 48px;
     background: #dff9fb;
+    /* background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; */
 }
 
 @media (max-width: 992px){
