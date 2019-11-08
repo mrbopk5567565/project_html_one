@@ -162,13 +162,14 @@ img{
     position: absolute;
     top: 50%;
     left: 50%;
+    /* right: 50%; */
     transform: translate(-50%,-50%);
     transition: 0.5s
 }
 
 .section-article-list:nth-child(even) .section-article-container:hover .section-article-image{
     top: 45%;
-    /* left: 45%; */
+    left: 55%;
     transition: 1s;
 }
 
@@ -580,5 +581,6 @@ h4.section-five-list-title{
 
 .main-footer-list-item{
     width: 5%;
+    margin: 0 10px;
 }
 /*FIN main-footer */
