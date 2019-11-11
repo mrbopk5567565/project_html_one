@@ -608,8 +608,7 @@ h4.section-five-list-title{
     position: relative;
     font-family: sans-serif;
     width: 100%;
-    /* height: auto; */
-    /* height: 200px; */
+    text-align: center;
 }
 
 .section-timeline--main::before{
@@ -623,6 +622,14 @@ h4.section-five-list-title{
     background: black;
     border-radius: 20px;
     margin: 0 auto;
+}
+
+.timeline{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: inline-block;
+    width: 80%;
 }
 
 .timeline::before{
@@ -639,9 +646,16 @@ h4.section-five-list-title{
     z-index: 1;
 }
 
-.timeline{
-    position: relative;
-    height: 185px;
+.timeline:nth-child(2)::before{
+    background: #f9850f;
+}
+
+.timeline:nth-child(3)::before{
+    background: #8fb800;
+}
+
+.timeline:nth-child(4)::before{
+    background: #2fcea5; 
 }
 
 .timeline--icon::before{
@@ -655,14 +669,36 @@ h4.section-five-list-title{
     transform: translateY(-50%);
 }
 
+.timeline:nth-child(even) .timeline--icon::before{
+    left: unset;
+    right: 100%;
+}
+
+.timeline:nth-child(2) .timeline--icon::before{
+    background: #f9850f;
+}
+
+.timeline:nth-child(3) .timeline--icon::before{
+    background: #8fb800;
+}
+
+.timeline:nth-child(4) .timeline--icon::before{
+    background: #2fcea5;
+}
+
 .timeline--icon::after{
     position: absolute;
     content: '';
-    width: 70px;
+    width: 35px;
     height: 50px;
     background: white;
     top: 75%;
     left: 60%;
+}
+
+.timeline:nth-child(even) .timeline--icon::after{
+    left: unset;
+    right: 60%;
 }
 
 .timeline--icon{
@@ -679,6 +715,23 @@ h4.section-five-list-title{
     left: 30%;
     transform: translateY(-50%);
 }
+
+.timeline:nth-child(even) .timeline--icon{
+    left: unset;
+    right: 30%;
+}
+
+.timeline:nth-child(2) .timeline--icon{
+    border: 3px solid #f9850f;
+}
+
+.timeline:nth-child(3) .timeline--icon{
+    border: 3px solid #8fb800;
+}
+
+.timeline:nth-child(4) .timeline--icon{
+    border: 3px solid #2fcea5;
+}
     
 .section-timeline--main .timeline--icon i{
     width: 70px;
@@ -691,5 +744,93 @@ h4.section-five-list-title{
     justify-content: center;
     align-items: center;
     z-index: 1;
+}
+
+.timeline:nth-child(2) .timeline--icon i{
+    background: #f9850f;
+}
+
+.timeline:nth-child(3) .timeline--icon i{
+    background: #8fb800;
+}
+
+.timeline:nth-child(4) .timeline--icon i{
+    background: #2fcea5;
+}
+
+/* timeline--content */
+.timeline--content{
+    width: 50%;
+    padding: 1px 70px;
+    /* margin: 52px 0 0; */
+    float: right;
+    position: relative;
+}
+
+.timeline:nth-child(even) .timeline--content{
+    float: left;
+}
+
+.timeline--content::before{
+    content: '';
+    width: 37px;
+    height: 4px;
+    background: #ec496e;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.timeline:nth-child(even) .timeline--content::before{
+    left: unset;
+    right: 0;
+}
+
+.timeline:nth-child(2) .timeline--content::before{
+    background: #f9850f;
+}
+
+.timeline:nth-child(3) .timeline--content::before{
+    background: #8fb800;
+}
+
+.timeline:nth-child(4) .timeline--content::before{
+    background: #2fcea5;
+}
+
+.timeline--content::after{
+    content: '';
+    border:4px solid #ec496e;
+    border-top: none;
+    border-right: none;
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    left: 35px;
+    bottom: -10px;
+}
+
+.timeline:nth-child(even) .timeline--content::after{
+    left: unset;
+    right: 35px;
+}
+
+.timeline:nth-child(2) .timeline--content::after{
+    border:4px solid #f9850f;
+    border-top: none;
+    border-left: none;
+}
+
+.timeline:nth-child(3) .timeline--content::after{
+    border:4px solid #8fb800;
+    border-top: none;
+    border-right: none;
+}
+
+.timeline:nth-child(4) .timeline--content::after{
+    border:4px solid #2fcea5;
+    border-top: none;
+    border-left: none;
 }
 /* FIN section timeline */

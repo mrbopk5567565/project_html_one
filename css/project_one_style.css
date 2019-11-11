@@ -417,6 +417,10 @@ h3 span{
 /*FIN main-footer */
 
 /* START section timeline */
+.timeline{
+    font-family: sans-serif;
+}
+
 .section-timeline--title{
     font-size: 30px;
     text-transform: capitalize;
@@ -431,5 +435,34 @@ h3 span{
     font-weight: bold;
     color: #777;
     font-family: sans-serif;
+}
+
+.timeline--title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ec496e;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    cursor: pointer;
+}
+
+.timeline:nth-child(2) .timeline--content .timeline--title{
+    color: #f9850f;
+}
+
+.timeline:nth-child(3) .timeline--content .timeline--title{
+    color: #8fb800;
+}
+
+.timeline:nth-child(4) .timeline--content .timeline--title{
+    color: #2fcea5;
+}
+
+.timeline--description{
+    color: black;
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 2;
+    text-align: left;
 }
 /* FIN section timeline */
