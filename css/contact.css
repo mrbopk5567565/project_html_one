@@ -225,6 +225,7 @@ body {
 .main-footer-content{
     background: url(../images/banner.jpg) center no-repeat;
     text-align: center;
+    background-size: cover;
     background-attachment: fixed;
 }
 

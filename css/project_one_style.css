@@ -361,6 +361,7 @@ h3 span{
 /*START main-footer */
 .main-footer-content{
     background: url(../images/banner.jpg) center no-repeat;
+    background-size: cover;
     text-align: center;
     background-attachment: fixed;
 }

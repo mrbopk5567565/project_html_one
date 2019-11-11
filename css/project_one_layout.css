@@ -591,6 +591,10 @@ h4.section-five-list-title{
 /*FIN main-footer */
 
 /* START section timeline */
+.section-timeline{
+    padding: 10px;
+}
+
 .section-timeline--heading{
     text-align: center;
     padding: 48px 12px;
@@ -603,8 +607,9 @@ h4.section-five-list-title{
 .section-timeline--main{
     position: relative;
     font-family: sans-serif;
-    width: 90%;
-    margin: 0 12px;
+    width: 100%;
+    /* height: auto; */
+    /* height: 200px; */
 }
 
 .section-timeline--main::before{
@@ -619,5 +624,72 @@ h4.section-five-list-title{
     border-radius: 20px;
     margin: 0 auto;
 }
+
+.timeline::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: #ec496e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.timeline{
+    position: relative;
+    height: 185px;
+}
+
+.timeline--icon::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background: #ec496e;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+
+.timeline--icon::after{
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 50px;
+    background: white;
+    top: 75%;
+    left: 60%;
+}
+
+.timeline--icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ec496e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position */
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+}
     
+.section-timeline--main .timeline--icon i{
+    width: 70px;
+    height: 70px;
+    color: white;
+    background: #ec496e;
+    font-size: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
 /* FIN section timeline */
