@@ -592,7 +592,11 @@ h4.section-five-list-title{
 
 /* START section timeline */
 .section-timeline{
-    padding: 10px;
+    padding: 20px 10px 70px;
+    /* background: url(../images/g4.jpg) center no-repeat;
+    background-size: cover;
+    z-index: 991;
+    background-attachment: fixed; */
 }
 
 .section-timeline--heading{
@@ -632,6 +636,18 @@ h4.section-five-list-title{
     width: 80%;
 }
 
+@media (max-width: 1200px){
+    .timeline{
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .timeline{
+        width: 100%;
+    }
+}
+
 .timeline::before{
     content: '';
     width: 20px;
@@ -667,6 +683,24 @@ h4.section-five-list-title{
     top: 50%;
     left: 100%;
     transform: translateY(-50%);
+}
+
+@media (max-width: 1200px){
+    .timeline--icon::before{
+        width: 70px;
+    }
+}
+
+@media (max-width: 992px){
+    .timeline--icon::before{
+        width: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .timeline--icon::before{
+        width: 20px;
+    }
 }
 
 .timeline:nth-child(even) .timeline--icon::before{
@@ -716,9 +750,22 @@ h4.section-five-list-title{
     transform: translateY(-50%);
 }
 
+@media (max-width: 600px){
+    .timeline--icon{
+        left: 18%;
+    }
+}
+
 .timeline:nth-child(even) .timeline--icon{
     left: unset;
     right: 30%;
+}
+
+@media (max-width: 600px){
+    .timeline:nth-child(even) .timeline--icon{
+        left: unset;
+        right: 18%;
+    }
 }
 
 .timeline:nth-child(2) .timeline--icon{
@@ -805,7 +852,7 @@ h4.section-five-list-title{
     border-top: none;
     border-right: none;
     position: absolute;
-    width: 85%;
+    width: 80%;
     height: 100%;
     left: 35px;
     bottom: -10px;
