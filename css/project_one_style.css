@@ -357,7 +357,80 @@ h3 span{
     letter-spacing: 1px;
 }
 /* FIN section picture */
+
 /* ----------------------- */
+
+
+/* START section SKILL */
+.section-skill{
+    background: url(../images/3942.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section-skill--text{
+    color: black;
+    font-size: 26px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* FIN section SKILL */
+
+/* ----------------------- */
+
+/* START section timeline */
+.timeline{
+    font-family: sans-serif;
+}
+
+.section-timeline--title{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+
+.section-timeline--description{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #777;
+    font-family: sans-serif;
+}
+
+.timeline--title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ec496e;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    cursor: pointer;
+}
+
+.timeline:nth-child(2) .timeline--content .timeline--title{
+    color: #f9850f;
+}
+
+.timeline:nth-child(3) .timeline--content .timeline--title{
+    color: #8fb800;
+}
+
+.timeline:nth-child(4) .timeline--content .timeline--title{
+    color: #2fcea5;
+}
+
+.timeline--description{
+    color: black;
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 2;
+    text-align: left;
+}
+/* FIN section timeline */
+
+/* ------------------------- */
+
 /*START main-footer */
 .main-footer-content{
     background: url(../images/banner.jpg) center no-repeat;
@@ -415,54 +488,3 @@ h3 span{
     font-size: 16px;
 }
 /*FIN main-footer */
-
-/* START section timeline */
-.timeline{
-    font-family: sans-serif;
-}
-
-.section-timeline--title{
-    font-size: 30px;
-    text-transform: capitalize;
-    font-weight: bold;
-    color: black;
-    font-family: sans-serif;
-}
-
-.section-timeline--description{
-    font-size: 15px;
-    text-transform: capitalize;
-    font-weight: bold;
-    color: #777;
-    font-family: sans-serif;
-}
-
-.timeline--title{
-    font-size: 20px;
-    font-weight: bold;
-    color: #ec496e;
-    text-transform: uppercase;
-    margin: 0 0 5px;
-    cursor: pointer;
-}
-
-.timeline:nth-child(2) .timeline--content .timeline--title{
-    color: #f9850f;
-}
-
-.timeline:nth-child(3) .timeline--content .timeline--title{
-    color: #8fb800;
-}
-
-.timeline:nth-child(4) .timeline--content .timeline--title{
-    color: #2fcea5;
-}
-
-.timeline--description{
-    color: black;
-    margin: 10px 0;
-    font-size: 15px;
-    line-height: 2;
-    text-align: left;
-}
-/* FIN section timeline */
